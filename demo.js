@@ -9,6 +9,7 @@ try{
     fs.writeFileSync("./"+ dirName+"/index.html", '<!DOCTYPE>\n <title>Hello</title>\n <h1>Hi</h1>')
     fs.writeFileSync("./"+dirName+"/css/style.css", 'h1{color: red;}')
     fs.writeFileSync("./"+dirName+"/js/main.js", 'var string = "Hello World"\nalert(string)')  
+    console.log("success")
 }catch{
     console.log("error: dir exists")
 }
